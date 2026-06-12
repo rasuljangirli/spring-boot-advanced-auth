@@ -1,4 +1,7 @@
-# Spring Boot Advanced Authentication System
+## Spring Boot Advanced Authentication System
+Youtube kanalımda dərs videolarından yararlanmaq üçün [klikləyin](https://www.youtube.com/@rasul_jangirli)
+
+Medium hesabımda məqalələrimlə tanış olmaq üçün [klikləyin](https://medium.com/@rasuljangirli)
 
 Layihədə asinxron OTP göndərilməsi, rate limiting, refresh token idarəetməsi, session hijacking müdafiəsi və avtomatik token təmizləmə mexanizmləri tətbiq edilmişdir.
 Bu layihə əsas götürülərək, üzərində bir çox real layihə sistemləri qurula bilər.
@@ -93,4 +96,8 @@ Ardından isə digər əmrlər icra edilə bilər.
    docker compose up --build -d
    ```
 
+---
 
+Youtube kanalımda dərs videolarından yararlanmaq üçün [klikləyin](https://www.youtube.com/@rasul_jangirli)
+
+Medium hesabımda məqalələrimlə tanış olmaq üçün [klikləyin](https://medium.com/@rasuljangirli)
