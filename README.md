@@ -27,7 +27,7 @@ Bu layihə əsas götürülərək, üzərində bir çox real layihə sistemləri
 
 ---
 
-## 🛠️ Texnoloji Stack
+## Texnoloji Stack
 
 * **Core Framework:** Java 17 / Spring Boot 3.x
 * **Token Infrastructure:** JWT (JSON Web Tokens) with Token Rotation
