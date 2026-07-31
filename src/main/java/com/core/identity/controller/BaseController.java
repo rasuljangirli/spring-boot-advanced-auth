@@ -1,6 +1,6 @@
 package com.core.identity.controller;
 
-import com.core.identity.dto.ApiResponseDTO;
+import com.core.identity.dto.response.ApiResponseDTO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 

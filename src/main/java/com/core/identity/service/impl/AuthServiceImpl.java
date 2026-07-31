@@ -1,5 +1,8 @@
 package com.core.identity.service.impl;
-import com.core.identity.dto.*;
+import com.core.identity.dto.request.*;
+import com.core.identity.dto.response.LoginResponseDTO;
+import com.core.identity.dto.response.RegisterResponseDTO;
+import com.core.identity.dto.response.VerifyCodeResponseDTO;
 import com.core.identity.exception.*;
 import org.springframework.transaction.annotation.Transactional;
 import lombok.RequiredArgsConstructor;

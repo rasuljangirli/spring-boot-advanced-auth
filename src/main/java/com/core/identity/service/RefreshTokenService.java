@@ -18,4 +18,6 @@ public interface RefreshTokenService {
     void deleteAllByUser(User user);
 
     void deleteExpiredRefreshTokens();
+
+    void revokeAllUserTokens(User user);
 }

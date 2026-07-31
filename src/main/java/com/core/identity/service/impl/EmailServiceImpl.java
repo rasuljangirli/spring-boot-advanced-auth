@@ -24,8 +24,8 @@ public class EmailServiceImpl implements EmailService {
            MimeMessage mimeMessage = mailSender.createMimeMessage();
            MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true, "UTF-8");
 
-           String htmlContent = "<p style='font-size:14px;'>Təhlükəsizliyiniz üçün bu kodu heç kimlə paylaşmayın:</p>"
-                   + "<p style='font-size:24px; font-weight:bold;'>" + body + "</p>";
+           String htmlContent = "<p style='font-size:14px;'>Təhlükəsizliyiniz üçün bu kodu kənar şəxslərlə paylaşmayın:</p>"
+                   + "<h1 style='font-size:24px; font-weight:bold;'>" + body + "</h1>";
 
            helper.setTo(to);
            helper.setSubject(subject);

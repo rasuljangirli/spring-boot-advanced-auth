@@ -1,4 +1,4 @@
-package com.core.identity.dto;
+package com.core.identity.dto.response;
 
 import lombok.Data;
 import java.time.LocalDateTime;

@@ -1,6 +1,10 @@
 package com.core.identity.controller;
 
-import com.core.identity.dto.*;
+import com.core.identity.dto.request.*;
+import com.core.identity.dto.response.ApiResponseDTO;
+import com.core.identity.dto.response.LoginResponseDTO;
+import com.core.identity.dto.response.RegisterResponseDTO;
+import com.core.identity.dto.response.VerifyCodeResponseDTO;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import com.core.identity.service.AuthService;

@@ -1,6 +1,9 @@
 package com.core.identity.service;
 
-import com.core.identity.dto.*;
+import com.core.identity.dto.request.*;
+import com.core.identity.dto.response.LoginResponseDTO;
+import com.core.identity.dto.response.RegisterResponseDTO;
+import com.core.identity.dto.response.VerifyCodeResponseDTO;
 
 public interface AuthService {
 

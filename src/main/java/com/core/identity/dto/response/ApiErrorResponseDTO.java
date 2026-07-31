@@ -1,4 +1,4 @@
-package com.core.identity.dto;
+package com.core.identity.dto.response;
 
 
 import lombok.AllArgsConstructor;
@@ -10,5 +10,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ApiErrorResponseDTO<T> {
     private int statusCode;
-    private ExceptionResponseDTO <T> exception;
+    private ExceptionResponseDTO<T> exception;
 }

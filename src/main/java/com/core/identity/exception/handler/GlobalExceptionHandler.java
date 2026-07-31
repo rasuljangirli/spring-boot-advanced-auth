@@ -1,8 +1,8 @@
 package com.core.identity.exception.handler;
 
 import jakarta.servlet.http.HttpServletRequest;
-import com.core.identity.dto.ApiErrorResponseDTO;
-import com.core.identity.dto.ExceptionResponseDTO;
+import com.core.identity.dto.response.ApiErrorResponseDTO;
+import com.core.identity.dto.response.ExceptionResponseDTO;
 import com.core.identity.exception.BaseException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

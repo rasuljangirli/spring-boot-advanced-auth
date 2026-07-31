@@ -98,4 +98,10 @@ public class RefreshTokenServiceImpl implements RefreshTokenService {
             log.info("Cron işi: {} ədəd vaxtı keçmiş refresh token bazadan təmizləndi.", deletedCount);
         }
     }
+
+    @Override
+    @Transactional
+    public void revokeAllUserTokens(User user){
+        refreshTokenRepository.deleteByUser(user);
+    };
 }
