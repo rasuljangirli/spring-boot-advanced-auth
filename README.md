@@ -88,7 +88,7 @@ http://localhost:8080/swagger-ui/index.html
    
    `.env.example` faylını kopyalayaraq `.env` faylı yaradın və öz məlumatlarınızla doldurun:
 
-Ardından isə digər əmrlər icra edilə bilər.
+Ardından isə digər əmrlər icra edilə bilər
 
    ```bash
    cd spring-boot-advanced-auth
