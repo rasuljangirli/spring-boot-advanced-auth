@@ -1,7 +1,10 @@
 package com.core.identity.config;
 
+import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
+import io.swagger.v3.oas.models.security.SecurityRequirement;
+import io.swagger.v3.oas.models.security.SecurityScheme;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -17,6 +20,14 @@ public class OpenApiConfig {
                         .description("Bu layihə, asinxron OTP doğrulama, anti-bruteforce sorğu limiti (Rate Limiting) " +
                                 "və çoxlu cihaz seanslarının təhlükəsizliyi (Session Hijacking Protection) " +
                                 "ilə təchiz olunmuş qabaqcıl autentifikasiya sistemidir.")
-                );
+                )
+                .addSecurityItem(new SecurityRequirement().addList("BearerAuth"))
+                .components(new Components()
+                        .addSecuritySchemes("BearerAuth",
+                                new SecurityScheme()
+                                        .name("BearerAuth")
+                                        .type(SecurityScheme.Type.HTTP)
+                                        .scheme("bearer")
+                                        .bearerFormat("JWT")));
     }
 }
